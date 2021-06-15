@@ -12,4 +12,4 @@ La Web esta subida a un servidor gratuito como es 000webhost por la tanto la fun
 <br>
 <h2><b>Codigo QR</b></h2>
 <br>
-<img alt="Bar-Restaurante Torcuato" src="/CodigoQR" width="200px" height="200px" />
+<img alt="Bar-Restaurante Torcuato" src="./CódigoQR" width="200px" height="200px" />
