@@ -5,7 +5,7 @@
   </a>
   <br /><br />
   Bar-Restaurante Torcuato</h1>
-Este es el proyecto realizado para fin de ciclo de Grado Superior de Desarrollo de Aplicaciones Web.
+Este es el proyecto realizado para fin de ciclo de Grado Superior de Desarrollo de Aplicaciones Web.<br>
 <b>IMPORTANTE</b>
-<br>
+<h2><br></h2>
 La Web esta subida a un servidor gratuito como es 000webhost por la tanto la función de enviar correos esta capada para que la gente no lo use para mandar spam. Para ver su correcto funcionamiento, debes descargar el proyecto y abrirlo con XAMPP
