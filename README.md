@@ -1,7 +1,7 @@
 # WebRestaurante
 <h1 align="center">
   <a href="https://webproyectointegrado.000webhostapp.com/" title="Web Bar-Restaurante Torcuato">
-    <img alt="Bar-Restaurante Torcuato" src="https://multimedia.paginasamarillas.es/adsContentSrv/224714014-0-spUHqSnBCE/fba71b0b-e208-4d4c-8493-084f67a4e389/logo-torcuato.jpg" width="200px" height="200px" />
+    <img alt="Bar-Restaurante Torcuato" src="Imagenes/Logo-Torcuato.png" width="200px" height="200px" />
   </a>
   <br /><br />
   Bar-Restaurante Torcuato</h1>
