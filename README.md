@@ -1,7 +1,7 @@
 # WebRestaurante
 <h1 align="center">
   <a href="https://webproyectointegrado.000webhostapp.com/" title="Web Bar-Restaurante Torcuato">
-    <img alt="Bar-Restaurante Torcuato" src="Imagenes/Logo-Torcuato.png" width="220px" height="400px" />
+    <img alt="Bar-Restaurante Torcuato" src="Imagenes/Logo-Torcuato.png" width="350px" height="300px" />
   </a>
   <br /><br />
   Bar-Restaurante Torcuato</h1>
