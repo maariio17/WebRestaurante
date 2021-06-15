@@ -1,0 +1,30 @@
+{"Menu": [
+    {"Nombre": "Ensaladas", "Imagen": "Imagenes/Menu/Ensaladas.jpg"},
+    {"Nombre": "Carnes a la Brasa", "Imagen": "Imagenes/Menu/CarneBrasa.jpg"},
+    {"Nombre": "Pescados", "Imagen": "Imagenes/Menu/Pescados.jpg"},
+    {"Nombre": "Para Picar", "Imagen": "Imagenes/Menu/ParaPicar.jpg"},
+    {"Nombre": "Bocadillos", "Imagen": "Imagenes/Menu/Bocadillos.jpg"},
+    {"Nombre": "Roscas", "Imagen": "Imagenes/Menu/Roscas.jpg"},
+    {"Nombre": "Hamburguesas", "Imagen": "Imagenes/Menu/Hamburguesas.jpeg"},
+    {"Nombre": "Sandwhichs", "Imagen": "Imagenes/Menu/Sandwhichs.jpg"},
+    {"Nombre": "Sopas", "Imagen": "Imagenes/Menu/Salmorejo.jpg"},
+    {"Nombre": "Postres", "Imagen": "Imagenes/Menu/Postres.jpg"}
+],
+"Personal": [
+    {"Nombre": "Laura", "Imagen": "Imagenes/Personal/Laura.jpg", "Oficio": "Gerente"},
+    {"Nombre": "Rafa", "Imagen": "Imagenes/Personal/Rafa.jpg", "Oficio": "Camarero"},
+    {"Nombre": "Rosa", "Imagen": "Imagenes/Personal/Rosa.jpg", "Oficio": "Jefa de Cocina"},
+    {"Nombre": "Moisés", "Imagen": "Imagenes/Personal/Moises.jpg", "Oficio": "Gerente"},
+    {"Nombre": "Cristina", "Imagen": "Imagenes/Personal/Cristina.jpg", "Oficio": "Ayudante de Cocina"},
+    {"Nombre": "Paco", "Imagen": "Imagenes/Personal/Paco.jpg", "Oficio": "Propietario"}
+],
+"Testimonios":[
+    {"ImagenCliente":"Imagenes/usuario.png", "NombreCliente": "Marina Jesus Garcia", "Comentario": "El mejor sitio de Granada con diferencia, comida de 10, trato de 10 y profesionalidad de 10. El personal son encantadores y te hacen sentirte como en tu casa. Desde luego que la próxima visita a Granada será el primer sitio donde volveremos!!"},
+    {"ImagenCliente":"Imagenes/usuario.png", "NombreCliente": "Ignacio J.Blanco", "Comentario": "Nos han atendido maravillosamente bien. La camarera incluso nos advirtió de que la comanda podía ser un tanto excesiva. ¡Cuanta razón! Los platos son abundantes y riquísimos. Y muy bien de precio. ¡Anotado para volver!"},
+    {"ImagenCliente":"Imagenes/usuario.png", "NombreCliente": "Jose Fernandez", "Comentario": "Restaurante típico granadino, con muy buena calidad precio. Increíble tanto la carne como el pescado y el trato muy atento. Con muchas ganas de volver."},
+    {"ImagenCliente":"Imagenes/usuario.png", "NombreCliente": "Enrique Javier Martín Gómez", "Comentario": "Una agradable sorpresa en una carretera entre dos pueblos. Comida de muy alta calidad, el vino en su temperatura y la atención como si estuvieras en casa. Lo dicho sorprendente y agradable, volveremos!!!"},
+    {"ImagenCliente":"Imagenes/usuario.png", "NombreCliente": "Gabriel Fernandez Campos", "Comentario": "Sitio muy acogedor, muy limpio, buen trato con los clientes y tanto tapas, raciones cómo comidas estupendas. El precio es muy bueno. Lo recomiendo tanto si vas en familia cómo con amistades a pasar un vuen rato"},
+    {"ImagenCliente":"Imagenes/usuario.png", "NombreCliente": "Fatima Pais", "Comentario": "Magnifico local, comida casera, muy bien elaborada por el cocinero, estupendas y excelentes comidas, precio muy ajustados para la calidad. Un lugar digno de visitar y a tener en cuenta"},
+    {"ImagenCliente":"Imagenes/usuario.png", "NombreCliente": "Marian Vilanova", "Comentario": "Restaurante modesto con buen género. Menú de mediodía amplio y de muy buen precio. Hemos comido muy agusto. Volveremos a ir"},
+    {"ImagenCliente":"Imagenes/usuario.png", "NombreCliente": "Marian Vilanova", "Comentario": "Es muy bonito y los camareros son atentos. La comida esta buenísima y tienen mucha variedad. Siempre hay mucha clientela y tratan muy bien a los clientes. Merece la pena ir a comer a este sitio."}
+]}

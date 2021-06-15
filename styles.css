@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+.centrado{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-weight: 300;
+    color: #111;
+}
+
+#subir{
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    background: #c99e71;
+    right:0;
+    bottom:0;
+    position:fixed;
+    margin-right:16px;
+    margin-bottom:16px;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-size:36px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.3s;  
+  }
+  span{
+    transition:.5s;  
+  }
+  #subir:hover span{
+    transform:rotate(360deg);
+  }
+  #subir:active{
+    transform:scale(1.1);
+  }
+
+  #subir a:hover{
+      content: "¿Quieres contactar con Nosotros? Dejanos tu mensaje.";
+  }
+
+/*********** BACKGROUND HOME ****************/
+.banner{
+    position: relative;
+    width: 100%;
+    min-height:  100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(Imagenes/fondoPrincipal.png);
+    background-size: cover;
+}
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+
+.banner .content img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+    font-size: 1em;
+    color: #fff;
+    background: #c99e71;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    letter-spacing: 6px;
+}
+
+/************ HEADER *************/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky{
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+header.sticky .logo{
+    color: #111;
+}
+
+header .logo span{
+    color: #c99e71;
+}
+
+header .navigation{
+    position: relative;
+    display: flex;
+}
+
+header .navigation li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navigation li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header.sticky .navigation li a{
+    color: #111;
+}
+
+header .navigation li a:hover{
+    color: #c99e71;
+}
+
+
+/********* SOBRE NOSOTROS ***************/
+section{
+    padding: 100px;
+}
+
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col50{
+    position: relative;
+    width: 48%;
+}
+
+.titleText{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.titleText span{
+    color: #c99e71;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.row .col50 .imgBx{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.row .col50 .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 10px 10px 6px rgb(0 0 0 0.16), 0 5px 6px rgb(0 0 0 0.23);
+}
+
+#sobreNosotros{
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+}
+
+#sobreNosotros a{
+    color: #c99e71;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+/*********** Nuestra Menú/Carta **************/
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.menu .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.menu .content .box{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+
+.menu .content .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.menu .content .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu .content .box .text{
+    padding: 15px 0 5px;
+}
+
+.menu .content .box .text h3{
+    font-weight: 400;
+    color: #111;
+}
+
+
+
+/********* NUESTROS PERSONAL **********/
+.expert .content{
+    top: 2em;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.content .card{
+    position: relative;
+    max-width: 800px;
+    height: 320px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+}
+
+.content .card:hover{
+    height: 400px;
+}
+
+.content .card .imgBx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 2.5px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.content .card .imgBx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.content .card .text{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.content .card:hover .text{
+    visibility: visible;
+    opacity: 1;
+    margin-top: 20px;
+    transition-delay: 0.3s;
+}
+
+/********** TESTIMONIOS ********/
+.testimonials{
+    background: url(Imagenes/FondoTestimonios.jpg);
+    background-size: cover;
+}
+
+.white .titleText, .white p{
+    color: #fff;
+}
+
+.testimonials .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.testimonials .content .box{
+    width: 340px;
+    margin: 20px;
+    padding: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonials .content .box .imgBx{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonials .content .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonials .content .box .text{
+    text-align: center;
+}
+
+.testimonials .content .box .text p{
+    color: #666;
+    font-style: italic;
+}
+
+.testimonials .content .box .text h3{
+    margin-top: 20px;
+    color: #c99e71;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+/********** RESERVAS *********/
+.contact{
+    background: url(Imagenes/FondoReservas.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact .title p{
+    font-size: 1.2em;
+}
+
+.contactForm{
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+    width: 50%;
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+.contact-map{
+    width: 50%;
+    height: auto;
+    flex: 50%;
+    padding: 75px 50px;
+}
+
+.contact-map iframe{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+}
+
+.contactForm h3{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+
+.contactForm .inputBox input[type="submit"]{
+    font-size: 1em;
+    color: #fff;
+    background: #c99e71;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+
+/******* Footer ********/
+.copyrightText{
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.copyrightText p{
+    color: #333;
+}
+
+.copyrightText a{
+    color: #c99e71;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.copyrightText a i{
+    color: #c99e71;
+    font-size: x-large;
+}
+
+@media (max-width: 991px){
+    /***** General Para Todos ******/
+    section{
+        padding: 20px;
+    }
+
+    /************ HEADER *************/
+    header, header.sticky{
+        padding: 10px 20px;
+    }
+
+    header .navigation{
+        display: none;
+    }
+
+    header .navigation.active{
+        width: 100%;
+        height: calc(100% - 68px);
+        position: fixed;
+        top: 68px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+        color: #111;
+    }
+
+    header .navigation li{
+        margin-left: 0;
+    }
+
+    header .navigation li a{
+        color: #111;
+        font-size: 1.6em;
+    }
+
+    .menuToggle{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(Imagenes/menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    .menuToggle.active{
+        background: url(Imagenes/close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    header.sticky .menuToggle{
+        filter: invert(1);
+    }
+
+    /*********** BACKGROUND HOME ****************/
+    .banner .content h2{
+        font-size: 3em;
+        color: #fff;
+    }
+
+    /********* SOBRE NOSOTROS ***************/
+    .row{
+        flex-direction: column;
+    }
+
+    .row .col50{
+        position: relative;
+        width: 100%;
+    }
+
+    .row .col50 .imgBx{
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    /*********** Nuestra Menú/Carta **************/
+    .menu .content{
+        margin-top: 20px;
+    }
+
+    .menu .content .box{
+        margin: 10px;
+    }
+
+    .menu .content .box .imgBx {
+        height: 260px;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .titleText{
+        font-size: 1.8em;
+        line-height: 1.5em;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+
+    /********** TESTIMONIOS ********/
+    .testimonials .content .box{
+        margin: 10px;
+        padding: 20px;
+    }
+
+    /********** RESERVAS *********/
+    .contactForm{
+        padding: 35px 40px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .contact-map{
+        width: 100%;
+        padding: 25px 0;
+    }
+}
+
+@media (max-width: 480px){
+    header .navigation.active{
+        top: 100px;
+    }
+
+    .banner .content h2{
+        font-size: 2.2em;
+        color: #fff;
+    }
+}
+
+
+/******** LOADING ***********/
+
+@keyframes ldio-95fsisn9qnq {
+  0% { opacity: 1 }
+  100% { opacity: 0 }
+}
+.ldio-95fsisn9qnq div {
+  left: 94px;
+  top: 48px;
+  position: absolute;
+  animation: ldio-95fsisn9qnq linear 1s infinite;
+  background: #c99e71;
+  width: 12px;
+  height: 24px;
+  border-radius: 6px / 12px;
+  transform-origin: 6px 52px;
+}.ldio-95fsisn9qnq div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -0.9166666666666666s;
+  background: #c99e71;
+}.ldio-95fsisn9qnq div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -0.8333333333333334s;
+  background: #c99e71;
+}.ldio-95fsisn9qnq div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.75s;
+  background: #c99e71;
+}.ldio-95fsisn9qnq div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.6666666666666666s;
+  background: #c99e71;
+}.ldio-95fsisn9qnq div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.5833333333333334s;
+  background: #c99e71;
+}.ldio-95fsisn9qnq div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.5s;
+  background: #c99e71;
+}.ldio-95fsisn9qnq div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.4166666666666667s;
+  background: #c99e71;
+}.ldio-95fsisn9qnq div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.3333333333333333s;
+  background: #c99e71;
+}.ldio-95fsisn9qnq div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.25s;
+  background: #c99e71;
+}.ldio-95fsisn9qnq div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.16666666666666666s;
+  background: #c99e71;
+}.ldio-95fsisn9qnq div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.08333333333333333s;
+  background: #c99e71;
+}.ldio-95fsisn9qnq div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+  background: #c99e71;
+}
+.loadingio-spinner-spinner-hyvi98gjs9k {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: black;
+}
+.ldio-95fsisn9qnq {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+  background: black;
+}
+.ldio-95fsisn9qnq div { box-sizing: content-box; }

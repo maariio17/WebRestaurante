@@ -1,0 +1,77 @@
+{"Menu":
+    [{"Ensaladas":[
+        {"Nombre":"Ensaladilla 'La Oñica'", "Contenido": "Lechuga, maiz, zanahorria, alcachofas, huevo, anchoas, atún y salmón", "Precio":"10.00€"},
+        {"Nombre":"Ensalada Cesar", "Contenido": "Lechuga, queso parmesano, maiz, picatostes, pollo, cebolla crispy, virutas de jamón y salsa cesar", "Precio":"9.50€"},
+        {"Nombre":"Ensalada Mixta", "Contenido": "Lechuga, tomate, maiz, zanahoria, remolacha, huevo duro y atún", "Precio":"4.40€"},
+        {"Nombre":"Ensalada de Queso de Cabra", "Contenido": "Lechuga, queso de cabra, pasas y frutos secos regados con miel de caña", "Precio":"3.20€"},
+        {"Nombre":"Tomate 'Aliñao' con Anchoas", "Contenido": "", "Precio":"7.50€"}
+    ],
+    "ParaPicar":[
+        {"Nombre": "Huevos rotos con Jamón Alpujarreño", "Precio":"9.00€"},
+        {"Nombre": "Huevos rotos con Gulas y Gambitas", "Precio":"10.00€"},
+        {"Nombre": "Huevos rotos con Foie", "Precio":"9.00€"},
+        {"Nombre": "Tiras de Pollo Crujiente con Miel y Mostaza", "Precio":"10.00€"},
+        {"Nombre": "Croquetas caseras de Pollo y Jamón Alpujareño", "Precio":"8.00€"},
+        {"Nombre": "Croquetas caseras de Bacalao y Gambitas", "Precio":"9.00€"},
+        {"Nombre": "Ración de Carne en Salsa con Patatas (media ración 6€)", "Precio":"9.00€"},
+        {"Nombre": "Ración de Lomo con Ajos y Patatas (media ración 6€)", "Precio":"9.00€"},
+        {"Nombre": "Choto al Ajillo", "Precio":"Segun Mercado"}
+    ],
+    "Pescados":[{
+        "Nombre": "Boquerones (media ración 6€)", "Precio":"9.00€"},
+        {"Nombre": "Bacalaillas (media ración 6€)", "Precio":"9.00€"},
+        {"Nombre": "Calamaritos (media ración 6€)", "Precio":"9.00€"},
+        {"Nombre": "Bacalao (Frito o con tomate)", "Precio":"10.00€"},
+        {"Nombre": "Cazón en adobo (media ración 6€)", "Precio":"9.00€"},
+        {"Nombre": "Lubina a la brasa", "Precio":"15.00€"},
+        {"Nombre": "Dorada a la brasa", "Precio":"15.00€"},
+        {"Nombre": "Fritura de pescado individual", "Precio":"10.00€"},
+        {"Nombre": "Fritura de pescado para compartir. Precio por persona", "Precio":"9.00€"}
+    ],
+    "Carnes":[{
+        "Nombre": "Ración Carne a la Brasa", "Precio":"9.00€"},
+        {"Nombre": "Ración Morcilla (media ración 6€)", "Precio":"9.00€"},
+        {"Nombre": "Ración Chorizo (media ración 6€)", "Precio":"9.00€"},
+        {"Nombre": "Solomillo de cerdo a la brasa", "Precio":"10.50€"},
+        {"Nombre": "Secreto brasa", "Precio":"9.00€"},
+        {"Nombre": "Parrillada de cerdo a compartir. Precio por persona", "Precio":"10.00€"},
+        {"Nombre": "Chuletillas de cordero", "Precio":"15.00€"},
+        {"Nombre": "Parrillada de Carne Mixta con cerdo, ternera y cordero. Precio por persona", "Precio":"14.00€"}
+    ],
+    "Bocadillos":[{
+        "Nombre": "Bocadillo Jamón Alpujarreño", "Contenido": "", "Precio":"3.20€"},
+        {"Nombre": "Bocadillo Carne en Salsa", "Contenido": "", "Precio":"3.50€"},
+        {"Nombre": "Bocadillo Queso Curado", "Contenido": "", "Precio":"4.00€"},
+        {"Nombre": "Bocadillo 'El Campero'", "Contenido": "Lomo, queso, bacon, lechuga y tomate", "Precio":"4.00€"},
+        {"Nombre": "Bocadillo 'Agrícola'", "Contenido": "Lomo, queso y pimientos fritos", "Precio":"3.50€"},
+        {"Nombre": "Bocadillo 'El Volador'", "Contenido": "Pechuga Pollo, lechuga, tomate, queso, crujiente jamón, y cebolla confitada", "Precio":"4.00€"}
+    ],
+    "Roscas":[{
+        "Nombre": "Rosca jamón, queso curado, tomate y aceite", "Precio":"7.50€"},
+        {"Nombre": "Rosca lomo, queso, bacon, lechuga y tomate", "Precio":"8.00€"},
+        {"Nombre": "Rosca de pechuga de pollo, queso, bacon, lechuga y tomate", "Precio":"8.00€"}
+    ],
+    "Hamburguesas":[{
+        "Nombre": "Hamburguesa Normal", "Contenido": "Carne de ternera acompañada de tomate, lechuga y queso", "Precio":"5.00€"},
+        {"Nombre": "Hamburguesa Completa", "Contenido": "Carne de ternera acompañada de tomate, lechuga, cebolla caramelizada, queso, bacon, y huevo", "Precio":"6.00€"},
+        {"Nombre": "Hamburguesa Torcuato", "Contenido": "Carne de ternera acompañada de queso de cabra y cebolla caramelizada", "Precio":"6.00€"},
+        {"Nombre": "Crónicas Carnívoras", "Contenido": "Doble de Carne de ternera con dobre de queso acompañada de lechuga, cebolla caramelizada, tomate, pepinillos, crujiente de bacon y salsa barbacoa", "Precio":"10.00€"}
+    ],
+    "Sandwhichs":[{
+        "Nombre": "Mixto Completo", "Contenido": "Mantequilla, York, Queso, Huevo, Lechuga y Tomate", "Precio":"3.50€"},
+        {"Nombre": "Sandwhich Vegetal", "Contenido": "", "Precio":"3.50€"},
+        {"Nombre": "Sandwhich de Pollo Completo", "Contenido": "Pechuga de Pollo, Queso, Mantequilla, Bacon, Huevo, Lechuga y Tomate", "Precio":"4.00€"}
+    ],
+    "Sopas":[{
+        "Nombre": "Sopa de Picadillo", "Precio":"3.50€"},
+        {"Nombre": "Salmorejo", "Precio":"3.50€"},
+        {"Nombre": "Gazpacho", "Precio":"3.50€"}
+    ],
+    "Postres":[{
+        "Nombre": "Pudin de Frutas", "Precio":"3.00€"},
+        {"Nombre": "Tiramisú Casero", "Precio":"3.50€"},
+        {"Nombre": "Tarta de Queso", "Precio":"3.50€"},
+        {"Nombre": "Arroz con Leche", "Precio":"2.50€"},
+        {"Nombre": "Tarta de Leche Rizada", "Precio":"3.50€"}
+    ]
+}]}

@@ -1,0 +1,243 @@
+body{
+    font-size: 15px;
+    line-height: 1.52;
+    color: #717f86;
+    font-family: 'Open', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+.row{
+    height: min-content;
+}
+
+.logo{
+    width: 23rem;
+    height: 15rem;
+}
+
+.logoFooter{
+    width: 20rem;
+    height: 17rem;
+    margin: 1.5em;
+}
+
+#redesSociales{
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    background: #c99e71;
+    margin-right:16px;
+    margin-bottom:16px;
+    border:none;
+    outline:none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.3s;  
+    font-size: x-large;
+  }
+
+#redesSociales i{
+    color: black;
+}
+
+.servicio{
+    background: black;
+    justify-content: center;
+    color: #fff;
+    padding: 2.5em;
+    margin-bottom: 5em;
+}
+
+.servicio h3{
+    color: #bd9d77;
+}
+
+
+.box{
+    width: 340px;
+    height: 340px;
+    margin: 20px;
+    border: 5px dotted #c99e71;
+    border-radius: 5%;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+    padding: 5em;
+    background: black;
+    color: #fff;
+    margin: 5rem 0.5rem;
+}
+
+.box .imgBx{
+    padding: 1em;
+}
+
+.box .imgBx i{
+    font-size: 5rem;
+    color: #c99e71;
+}
+
+.cardBox{
+    display: flex;
+    justify-content: center;
+}
+
+#menu-list{
+    margin-top: 100px;
+}
+
+.section-padding{
+    padding: 60px 0px;
+}
+
+.marb-35{
+    margin-bottom: 35px;
+}
+
+.header-h{
+    font-size: 35px;
+    color: #bd9d77;
+    font-family: 'Satisfy', sans-serif;
+    font-weight: 300;
+}
+
+.header-p{
+    color: #9699a6;
+    font-size: 16px;
+}
+
+#menu-flters ul li{
+    display: inline-block;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+#menu-flters ul li a {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #565656;
+    border-radius: 0px;
+    border: 1px solid #bbbbbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#menu-flters ul li a.active, #menu-flters ul li a:hover{
+    background: #bd9d77;
+    border: 1px solid #bd9d77;
+}
+
+.menu-restaurant{
+    width: 100%;
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+
+.imagenMenu{
+    display: none;
+}
+
+.imagenMenu img{
+    height: 380px;
+    width: 25rem;
+}
+
+.menu-restaurant a{
+    max-width: 15rem;
+}
+
+.menu-restaurant .menu-title{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #bd9d77;
+}
+
+.menu-restaurant .menu-line{
+    position: absolute;
+    bottom: 6px;
+    border-bottom: 1px dotted rgba(0,0,0.3);
+    margin-left: .6rem;
+    margin-right: .6rem;
+}
+
+.menu-restaurant .menu-price{
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu-restaurant .menu-subtitle{
+    display: block;
+    float: left;
+    color: #b1b1b1;
+    font-size: 1.1rem;
+}
+
+.menu-restaurant span.clearfix{
+    position: relative;
+    display: block;
+}
+
+.footer{
+    background: #bd9d77;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: medium;
+    font-weight: 500;
+    padding-top: 0.5em;
+    justify-content: center;
+}
+
+@media (min-width: 768px){
+    .logo{
+        width: 30rem;
+        height: 18rem;
+    }
+
+    .imagenMenu{
+        display: none;
+    }
+
+    .menu-restaurant a{
+        max-width: 25rem;
+    }
+
+    .logoFooter{
+        width: 30rem;
+        height: 17rem;
+        margin: 2.5em;
+    }
+
+    .box{
+        width: 340px;
+        height: 340px;
+        border: 5px dotted #c99e71;
+        border-radius: 5%;
+        box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+        padding: 5em;
+        background: black;
+        color: #fff;
+        margin: 5rem -0.5rem;
+    }
+}
+
+@media (min-width: 992px){
+    /*.logo{
+        width: 21rem;
+        height: 21rem;
+    }*/
+
+    .imagenMenu{
+        display: block;
+    }
+
+    .menu-restaurant a{
+        max-width: 30rem;
+    }
+}
